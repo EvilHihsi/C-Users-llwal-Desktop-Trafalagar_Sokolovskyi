@@ -1,0 +1,270 @@
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #f3f3f3;
+}
+
+a {
+    text-decoration: none;
+}
+
+header img {
+    width: 160px;
+    height: 41px;
+    position: absolute;
+    top: 19px;
+    left: 400px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li p {
+    opacity: 50%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    position: absolute;
+    top: 19px;
+    left: 1200px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.low_opac {
+    opacity: 50%;
+}
+
+.nav_text {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+
+.nav_text p {
+    color: #7D7987;
+}
+
+.illustration {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+}
+
+.nav_button {
+    background-color: #458FF6;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 32px;
+    margin-top: 20px;
+}
+
+.text {
+    position: absolute;
+    top: 700px;
+    left: 600px;
+    text-align: center;
+}
+
+.text p {
+    color: #7D7987;
+}
+
+.item {
+    width: 52px;
+    height: 2px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    align-items: center;
+    position: absolute;
+    top: 900px;
+    margin-left: 500px;
+}
+
+.service li p{
+    color: #7D7987;
+}
+
+.btn {
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    top: 1500px;
+    left: 850px;
+    gap: 0px;
+    border-radius: 55px;
+    border: 1.4px 1.4px 1.4px 1.4px;
+    border-color: #458FF6;
+    color: #458FF6;
+    opacity: 0px;
+}
+
+.btn a {
+    color: #458FF6;
+}
+
+.lead {
+    display: flex;
+    position: absolute;
+    top: 1700px;
+    left: 300px;
+}
+
+.text_s2 {
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.lead .btn{
+    position: absolute;
+    top: 350px;
+    margin-right: 200px;
+}
+
+.lead .item {
+    width: 52px;
+    height: 2px;
+    background-color: #000000;
+    margin-left: 1px;
+}
+
+.download {
+    position: absolute;
+    top: 2200px;
+    left: 500px;
+    display: flex;
+}
+
+.btn_s3 {
+    position: absolute;
+    width: 200px;
+    height: 56px;
+    top: 300px;
+    left: 40px;
+    gap: 0px;
+    border-radius: 55px;
+    border: 1.4px 1.4px 1.4px 1.4px;
+    border-color: #458FF6;
+    color: #458FF6;
+    opacity: 0px;
+}
+.download .item {
+    width: 52px;
+    height: 2px;
+    background-color: #000000;
+    margin-left: 1px;
+}
+
+.text_s3 {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.testimonials {
+    position: absolute;
+    top: 2800px;
+    left: 450px;
+}
+
+.bckg {
+    width: 1120px;
+    height: 425px;
+    gap: 0px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    z-index: -1;
+    position: relative;
+}
+
+.cus_say {
+    color: white;
+    position: absolute;
+    bottom: 350px;
+    left: 350px;
+}
+
+.testimonials .item {
+    position: absolute;
+    bottom: 340px;
+    left: 500px;
+    background-color: white;
+}
+
+.testimonials img {
+    position: absolute;
+    bottom: 80px;
+    left: 100px;
+}
+
+.name {
+    position: absolute;
+    bottom:140px;
+    left: 260px;
+    color: white;
+}
+
+h4 {
+    position: absolute;
+    bottom: 110px;
+    left: 260px;
+    color: white;
+    opacity: 80%;
+}
+
+.cus_review {
+    position: absolute;
+    bottom: 100px;
+    left: 700px;
+    color: white;
+    opacity: 90%;
+}
+
+.list {
+    position: absolute;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    left: 500px;
+    top: 450px;
+}
+
+.blue {
+    width: 10px;
+    height: 10px;
+    background-color: #5B9BF3;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #5B9BF3;
+    opacity: 30%;
+    border-radius: 50%;
+}
