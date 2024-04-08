@@ -251,7 +251,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     left: 500px;
-    top: 450px;
+    top: 430px;
 }
 
 .blue {
@@ -267,4 +267,149 @@ h4 {
     background-color: #5B9BF3;
     opacity: 30%;
     border-radius: 50%;
+}
+
+.articles {
+    position: absolute;
+    top: 3400px;
+    right: 350px;
+}
+
+.articles .item {
+    margin-bottom: 70px;
+}
+
+.articles_li {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.articles h1 {
+    text-align: center;
+}
+
+.articles p {
+    font-weight: 300;
+}
+
+#article_1 {
+    background-color: white;
+}
+
+#article_2 {
+    background-color: white;
+}
+
+#article_3 {
+    background-color: white;
+}
+
+.button_s4 {
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    background-color: white;
+}
+
+.articles div a {
+    color: #4089ED;
+}
+
+.btn_s4 {
+    position: absolute;
+    top: 700px;
+    left: 500px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    border-radius: 55px;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    top: 4300px;
+    left: 200px;
+}
+
+.footer a {
+    color: white;
+}
+
+#background {
+    position: relative;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    width: 1600px;
+    height: 432px;
+}
+
+.logo_foot {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.company {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    color: white;
+}
+
+.company_li {
+    position: absolute;
+    top: 150px;
+    left: 660px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.company_li li {
+    margin-bottom: 10px;
+}
+
+.region {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    color: white;
+}
+
+.region_li {
+    position: absolute;
+    top: 150px;
+    left: 960px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.region_li li {
+    margin-bottom: 10px;
+}
+
+.help {
+    position: absolute;
+    top: 100px;
+    left: 1300px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.help_li {
+    position: absolute;
+    top: 150px;
+    left: 1260px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.help_li li {
+    margin-bottom: 10px;
 }
