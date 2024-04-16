@@ -6,11 +6,19 @@ body {
     background-color: #f3f3f3;
 }
 
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 50px;
+    padding-top: 30px;
+    
+}
+
 a {
     text-decoration: none;
 }
 
-header {
+header .top_nav_container{
     display: flex;
     justify-content: space-between;
 }
@@ -18,18 +26,11 @@ header {
 header img {
     width: 160px;
     height: 41px;
-    top: 56px;
-    left: 191px;
-    margin-left: 100px;
-    margin-top: 30px;
 }
 
 .top_nav {
     width: 545px;
-    height: 23px;
     margin-inline-start: auto;
-    margin-right: 200px;
-    margin-top: 30px;
 }
 
 .nav {
