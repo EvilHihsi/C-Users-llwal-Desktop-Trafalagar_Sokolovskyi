@@ -91,6 +91,10 @@ header img {
     margin-bottom: 5px;
 }
 
+.services {
+    margin-top: 50px;
+}
+
 .our_services {
     text-align: center;
     display: grid;
@@ -112,7 +116,6 @@ header img {
 
 .service_list {
     width: 1120px;
-    height: 745px;
     border-radius: 20px;
     margin: 0 auto;
 }
@@ -121,9 +124,88 @@ header img {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 27px;
 }
 
 .service_list li {
     background-color: white;
-    padding-left: 100px;
+    border-radius: 22px;
+    padding: 26px;
+}
+
+
+.service_list li .text_li {
+    margin-left: 8px;
+}
+
+.btn {
+    width: 200px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    margin-top: 50px;
+}
+
+.service_list .btn {
+    margin: 0 auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.btn a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #458FF6;
+}
+
+.sec_2 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1273px;
+    margin-top: 200px;
+}
+
+.providers {
+    margin-top: 40px;
+}
+
+.providers h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    width: 481px;
+}
+
+.providers p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #7D7987;
+}
+
+.mobile_apps {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1365px;
+    margin-top: 200px;
+}
+
+.mobile_text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    width: 370px;
+}
+
+.mobile_text p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #7D7987;
 }
