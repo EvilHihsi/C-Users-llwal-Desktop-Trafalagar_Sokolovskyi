@@ -211,8 +211,6 @@ header img {
 
 .testimonials {
     margin-top: 200px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .gradient {
@@ -272,3 +270,27 @@ header img {
     text-align: left;
     color: #FFFFFFD9;
 }
+
+.slider {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5B9BF3;
+}
+
+.circle_opac {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5B9BF3;
+    opacity: 0.3;
+}
+
