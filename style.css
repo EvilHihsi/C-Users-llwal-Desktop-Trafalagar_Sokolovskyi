@@ -294,3 +294,49 @@ header img {
     opacity: 0.3;
 }
 
+.article {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.article_text {
+    display: grid;
+    justify-items: center;
+}
+
+.article_list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    list-style-type: none;
+    background-color: #FFFFFF;
+}
+
+.article_list h1 {
+    width: 251px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.article_list p {
+    width: 266px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+}
+
+.article_list a {
+    float: left;
+    width: 266px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #4089ED;
+    text-decoration: none;
+}
