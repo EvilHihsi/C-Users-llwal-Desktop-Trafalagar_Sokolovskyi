@@ -116,7 +116,6 @@ header img {
 
 .service_list {
     width: 1120px;
-    border-radius: 20px;
     margin: 0 auto;
 }
 
@@ -184,6 +183,7 @@ header img {
     line-height: 30px;
     text-align: left;
     color: #7D7987;
+    width: 450px;
 }
 
 .mobile_apps {
@@ -195,7 +195,7 @@ header img {
 }
 
 .mobile_text {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 48px;
     text-align: left;
@@ -206,6 +206,69 @@ header img {
     font-size: 18px;
     font-weight: 300;
     line-height: 30px;
-    text-align: left;
     color: #7D7987;
+}
+
+.testimonials {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px;
+    margin: 0 auto;
+}
+
+.gradient h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #FFFFFF;
+}
+
+.gradient .item {
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.gradient p {
+    width: 420px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFFE5;
+}
+
+.img_group {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    width: 1000px;
+    margin-left: 70px;
+}
+
+.img_group img{
+    width: 141px;
+    height: 141px;
+}
+
+.cus_name h1 {
+    position: relative;
+    right: 80px;
+    bottom: 20px;
+}
+
+.cus_name p {
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFFD9;
 }
