@@ -121,9 +121,10 @@ header img {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 34px;
 }
 
 .service_list li {
     background-color: white;
-    padding-left: 100px;
+    padding: 24px;
 }
