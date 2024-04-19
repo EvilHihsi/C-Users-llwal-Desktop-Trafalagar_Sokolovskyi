@@ -308,25 +308,18 @@ header img {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    /* Краще прописуй  max-width, щоб можна було працювата з 
-    адаптивом*/
-    max-width: 1300px;
+    max-width: 1200px;
     list-style-type: none;
+    margin-bottom: 50px;
 }
 
 .article_list li {
-    /* Не туди додавав бекграунт і відступи ти додавав 
-    не для кожного елементу а до всього блоку */
     background-color: #FFFFFF;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgb(221, 221, 221);
 }
 
 .item_container{
-    /* якщо в тебе внутрішній відступ чисто в тексті, 
-    а картинка остається на місці, 
-    то краще обернути це в контейнер і в ньому вже робити 
-    відступи */
     padding: 0px 32px;
 }
 
@@ -355,5 +348,59 @@ header img {
     line-height: 28px;
     text-align: left;
     color: #4089ED;
+    text-decoration: none;
+}
+
+.article .btn {
+    height: 60px;
+    width: 200px;
+    border-radius: 55px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.bckg {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    max-width: 1600px;
+    height: 432px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bckg img {
+    width: 391px;
+    height: 201px;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.bckg ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 60px;
+}
+
+.bckg li {
+    margin-top: 70px;
+    margin-right: 140px;
+}
+
+.bckg li h1 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.bckg li a {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    color: #FFFFFF;
     text-decoration: none;
 }
